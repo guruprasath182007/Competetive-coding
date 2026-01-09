@@ -1,0 +1,13 @@
+def revint(x):
+ sign = -1 if x<0 else 1
+ x=abs(x)
+ res=0
+ while x!=0:        #4179!=0
+   dig=x%10         #4179%10=9
+   res=res*10+dig   #0x10+9=9
+   x=x//10          #4179//10=417
+ res=res*sign
+ if -2**32 <= res<=(2**32-1):
+   return res
+ else:
+   return 0
