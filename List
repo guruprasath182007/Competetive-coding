@@ -1,0 +1,5 @@
+mylist=[]
+for i in range(1,5):
+ mylist.append(i)
+print(mylist)
+
