@@ -1,0 +1,7 @@
+def findcount(arr,length,num,diff):
+ count=0
+ for i in arr:
+   if abs(i-num)<=diff:
+     count =count+1
+ return count
+findcount([12,70,35,11,14],6,17,3)
