@@ -1,0 +1,11 @@
+class cse:
+  def __init__(self):
+    self.pune="i am public"
+    self._collector="i am private"
+  def rose(self):
+    print(self._collector)
+aids=cse()
+aids.pune
+aids.rose()
+
+
