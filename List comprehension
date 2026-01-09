@@ -1,0 +1,7 @@
+
+mylist=[i  for i in range(1,5)]
+print(mylist)
+f=[9,4,3,2,6]
+n=int(input("enter n:"))
+result=[i  for i in f if n%i==0]
+print(result)
