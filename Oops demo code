@@ -1,0 +1,8 @@
+Class person:
+ def __init__(self,name,age):
+   self.name=name
+   self.age=age
+ def greet(self):	
+   print(f"hell0 my name is {self.name} and my age is {self.age}")
+person1=person("Guru",18)
+person1.greet()		
