@@ -1,0 +1,4 @@
+def factors(f,n):
+ res=[i  for i in f  if n%i==0]
+ return res
+factors([9,4,3,2,6],6)
