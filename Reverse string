@@ -1,0 +1,8 @@
+class Solution(object):
+   def reverseString(self, s):
+       s.reverse()
+s = list(input("Enter characters without space: "))
+Solution().reverseString(s)
+print(s)
+
+
